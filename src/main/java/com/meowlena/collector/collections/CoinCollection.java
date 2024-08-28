@@ -1,4 +1,7 @@
 package com.meowlena.collector.collections;
 
-public class CoinCollection {
+public class CoinCollection extends Collection {
+    public void searchByCurrency() {
+
+    }
 }

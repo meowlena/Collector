@@ -1,26 +1,42 @@
-
 package com.meowlena.collector;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.TextArea;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
+import javafx.scene.image.ImageView;
 
 public class CollectionController {
 
     @FXML
-    private TextArea searchBar;
+    private ImageView backButton;
 
     @FXML
-    private Font x1;
+    private ImageView searchButton;
 
     @FXML
-    private Color x2;
+    protected void onBackButtonHoverStart() {
+
+        backButton.setScaleX(0.9f);
+        backButton.setScaleY(0.9f);
+    }
 
     @FXML
-    private Font x3;
+    protected void onBackButtonHoverEnd() {
+
+        backButton.setScaleX(0.7f);
+        backButton.setScaleY(0.7f);
+    }
 
     @FXML
-    private Color x4;
+    protected void onSearchButtonHoverStart() {
+
+        searchButton.setScaleX(0.9f);
+        searchButton.setScaleY(0.9f);
+    }
+
+    @FXML
+    protected void onSearchButtonHoverEnd() {
+
+        searchButton.setScaleX(0.7f);
+        searchButton.setScaleY(0.7f);
+    }
 
 }

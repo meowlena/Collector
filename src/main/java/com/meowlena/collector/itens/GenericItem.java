@@ -1,4 +1,4 @@
 package com.meowlena.collector.itens;
 
-public class GenericItem {
+public class GenericItem extends Item {
 }

@@ -1,4 +1,4 @@
 package com.meowlena.collector.itens;
 
-public class PostageStamp {
+public class PostageStamp extends Item {
 }

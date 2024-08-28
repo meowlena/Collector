@@ -1,4 +1,4 @@
 package com.meowlena.collector.itens;
 
-public class Disk {
+public class Disk extends Item {
 }

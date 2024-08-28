@@ -1,4 +1,4 @@
 package com.meowlena.collector.itens;
 
-public class Antique {
+public class Antique extends Item {
 }

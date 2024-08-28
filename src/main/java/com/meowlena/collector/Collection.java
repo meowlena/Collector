@@ -5,10 +5,10 @@ import java.util.List;
 
 
 public class Collection {
+    private String name;
     private String type;
     private LocalDate start;
     private List<Object> itens;
-
 
     public void listItens() {
 

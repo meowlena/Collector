@@ -4,8 +4,8 @@ public class Card extends Item {
     private String edition;
     private String language;
     private String foil;
-    private String arte;
-    private String type;
+    private String artist;
+    private String set;
     private String rarity;
     private short year;
 }

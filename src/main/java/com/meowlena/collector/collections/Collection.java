@@ -8,9 +8,9 @@ public class Collection {
     private String name;
     private String type;
     private LocalDate start;
-    private List<Object> itens;
+    private List<Object> items;
 
-    public void listItens() {
+    public void listItems() {
 
     }
 

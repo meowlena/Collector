@@ -1,4 +1,4 @@
-package com.meowlena.collector;
+package com.meowlena.collector.collections;
 
 import java.time.LocalDate;
 import java.util.List;

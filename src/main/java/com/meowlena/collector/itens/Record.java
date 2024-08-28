@@ -7,4 +7,5 @@ public class Record extends Item {
     private double isDouble;
     private String edition;
     private short year;
+    private String type;
 }

@@ -13,4 +13,8 @@ public class BookCollection extends Collection {
     public void searchByLanguage() {
 
     }
+
+    public void drawBook() {
+
+    }
 }

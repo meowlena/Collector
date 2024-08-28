@@ -4,4 +4,5 @@ public class Coin extends Item {
     private String country;
     private short year;
     private String collection;
+    private String material;
 }

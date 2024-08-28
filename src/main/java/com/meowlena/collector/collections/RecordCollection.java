@@ -8,4 +8,8 @@ public class RecordCollection extends Collection {
     public void searchByArtist() {
 
     }
+
+    public void drawRecord() {
+
+    }
 }

@@ -9,4 +9,5 @@ public class Book extends Item {
     private short edition;
     private String language;
     private short year;
+    private boolean isRead;
 }
